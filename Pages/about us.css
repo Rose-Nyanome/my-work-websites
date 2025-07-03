@@ -1,0 +1,563 @@
+.banner{
+    background-color: rgba(85, 47, 255, 0.075);
+    width: 100%;
+    height: 80px;
+
+}
+
+
+.banner ul{
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+    gap: 100px;
+    padding: 20px;
+
+}
+.banner ul a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.banner ul a:hover{
+    background-color: rgba(255, 196, 0, 0.719);
+    cursor: move;
+
+}
+.logo img{
+    width: 60px;
+    height: 70px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+.logo button{
+    margin-left: 90%;
+    width: 100px;
+    height: 20px;
+    margin-top: -10px;
+}
+.logo button:hover{
+    background-color: blue;
+    cursor: pointer;
+    transition: -5px;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(228, 90, 120, 0.404),rgba(194, 255, 192, 0.048)), url(./images/school.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+    
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    margin-top: 0px
+}
+.logo1 img{
+height: 400px;
+}
+.content{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    
+}
+.text h2{
+    
+    width: 50%;
+    height: 400px;
+    margin-left: 50%;
+    margin-top: -404px;
+    text-align: center;
+
+}
+.text p{
+    width: 50%;
+    height: 400px;
+    margin-left: 50%;
+    margin-top: -350px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.images{
+    width: 100vw;
+    height: 400px;
+    margin-top: 20px;
+    
+    
+
+display: flex;
+}
+.img1  p{
+    width: 30vw;
+    height: 300px;
+    
+
+}
+.img1 h12{
+
+}
+.a{
+    margin-left: 15vw;
+    cursor: pointer;
+    
+
+}
+
+.img2 img{
+    width: 30vw;
+    margin-left: 4vw;
+    height: 300px;
+}
+.c{
+    margin-left: 18vw;
+    cursor: pointer;
+}
+
+
+.img3 img{
+    width: 30vw;
+    margin-left: 4vw;
+    height: 300px;
+}
+.b{
+    margin-left: 18vw;
+    cursor: pointer;
+}
+.img1 h1{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img2 h2{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30vw;
+    margin-left: 4vw;
+}
+.img3 h3{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30vw;
+    margin-left: 4vw;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+.log1 img{
+    width: 48px;
+    height: 50px;
+    margin-left: 10px;
+    margin-left: 200%;
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 40px;
+}
+
+.log1 img:hover{
+      background-color: aquamarine;
+      border-radius: red soli 4px;
+}
+
+.log1 h1{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.log2 img{
+    width: 48px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-left: 500%;
+    border-radius: 40px;
+    background-color: white;
+    transition: 0.3s;
+    
+}
+
+.log2 img:hover{
+   background-color: aquamarine;
+   border: red solid 4px;
+}
+.log2 h2{
+     margin-top: 10px;
+ color: rgb(255, 255, 255);
+ margin-left: 500%;
+ font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+
+}
+.log3 img{
+    width: 48px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 800%;
+    border-radius: 40px;
+    background-color: white;
+    transition: 0.3s;
+}
+.log3 img:hover{
+    border: red solid 4px;
+    background-color: aquamarine;
+}
+.log3 h3{
+        margin-top: 10px;
+color: rgb(255, 255, 255);
+ margin-left: 800%;
+ font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+
+}
+.log3 h3:hover{
+    border-bottom: red solid 2px;
+}
+.contact{
+    width: 25%;
+    height: 100px;
+    margin-left: 55%;
+    margin-top: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+.full{
+    width: 50%;
+    height: 380px;
+    background-color: grey;
+    margin-left: 25%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1;
+}
+.full h1 a{
+    text-decoration: none;
+    font-size: large;
+    margin-top: 40px;
+
+}
+.full h1 a:hover{
+    border-bottom: aqua solid 2px;
+
+}
+.full h1{
+    text-align: center;
+    
+}
+.full img{
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px;
+}
+
+.ab1 {
+    width: 27%;
+    height: 450px;
+    background-color: rgba(203, 219, 219, 0.486);
+    border-radius: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    border: solid rgba(100, 148, 237, 0.678);
+
+}
+.ab1 h2{
+margin: auto;
+border-bottom: solid rgb(123, 95, 160);
+text-align: center;
+
+
+
+}
+.ab1 h4{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100%;
+}
+.ab2{
+ width: 27%;
+ height: 450px;
+ background-color: rgba(201, 223, 223, 0.486);
+ border-radius: 15px;
+ margin-left: 20px;
+ padding: 20px;
+ border: solid rgba(100, 148, 237, 0.678);    
+}
+.ab2 h2{
+margin: auto;
+border-bottom: solid rgb(123, 95, 160);
+text-align: center;
+
+}
+.ab2 h4{
+    padding: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 100%; 
+}
+.ab3{
+width: 27%;
+height: 450px;
+background-color: rgba(220, 238, 238, 0.486);
+border-radius: 15px;
+margin-left: 20px;
+padding: 20px;
+border: solid rgba(100, 148, 237, 0.678);  
+}
+.ab3 h2{
+  margin: auto;
+border-bottom: solid rgb(123, 95, 160);
+text-align: center;  
+}
+.ab3 h4{
+      padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100%;  
+}
+.ad6{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.li{
+    width: 95%;
+    height: 70px;
+    margin-top: 70px;
+    margin-left: 1%;
+    
+}
+.li h5{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 45px;
+     margin-top: 100px;
+}
+.ig img{
+    width: 95%;
+    height: 400px;
+    background-color: blue;
+    margin-left: 1%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.76);
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+.log1 img{
+    width: 48px;
+    height: 50px;
+    margin-left: 10px;
+    margin-left: 200%;
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 40px;
+}
+
+.log1 img:hover{
+      background-color: aquamarine;
+      border-radius: red soli 4px;
+}
+
+.log1 h1{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.log2 img{
+    width: 48px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-left: 500%;
+    border-radius: 40px;
+    background-color: white;
+    transition: 0.3s;
+    
+}
+
+.log2 img:hover{
+   background-color: aquamarine;
+   border: red solid 4px;
+}
+.log2 h2{
+     margin-top: 10px;
+ color: rgb(255, 255, 255);
+ margin-left: 500%;
+ font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+
+}
+.log3 img{
+    width: 48px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 800%;
+    border-radius: 40px;
+    background-color: white;
+    transition: 0.3s;
+}
+.log3 img:hover{
+    border: red solid 4px;
+    background-color: aquamarine;
+}
+.log3 h3{
+        margin-top: 10px;
+color: rgb(255, 255, 255);
+ margin-left: 800%;
+ font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+
+}
+.log3 h3:hover{
+    border-bottom: red solid 2px;
+}
+.contact{
+    width: 25%;
+    height: 100px;
+    margin-left: 55%;
+    margin-top: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+.full{
+    width: 50%;
+    height: 380px;
+    background-color: grey;
+    margin-left: 25%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1;
+}
+.full h1 a{
+    text-decoration: none;
+    font-size: large;
+    margin-top: 40px;
+
+}
+.full h1 a:hover{
+    border-bottom: aqua solid 2px;
+
+}
+.full h1{
+    text-align: center;
+    
+}
+.full img{
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px;
+}
+
+ 
+ 
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+   
+
